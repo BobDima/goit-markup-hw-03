@@ -64,6 +64,10 @@ button {
   text-decoration: none;
 }
 
+.logo {
+    margin-right: 94px;
+}
+
 .page-studio {
     color: var(--studio-word-color);
 }
@@ -89,9 +93,14 @@ button {
     align-items: center;
 }
 
+.site-item:not(:last-child) {
+    margin-right: 40px;
+}
+
 .page-header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
    
 }
 
@@ -123,6 +132,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
+margin-left: auto;
+margin-right: 52px;
 }
 
 .site-info .link:hover,
