@@ -49,6 +49,8 @@ button {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
@@ -71,6 +73,27 @@ button {
 }
 
 /* Site-nav */
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-info {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+   
+}
 
 .site-nav .link {
     color: var(--title-text-color);
