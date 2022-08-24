@@ -175,9 +175,15 @@ padding-right: 236px;
     background-color: var(--accent-color);
 }
 /* Feature-list */
-.section-title .fuature {
-    color: var(--title-text-color);
+
+.team-title {
+    margin-bottom: 50px;
 }
+
+.section-title {
+    margin-bottom: 50px;
+}
+
 .fuature-list .title {
     color: var(--title-text-color);
 
@@ -299,7 +305,6 @@ text-decoration: none;
 .page-studio-white {
     color: var(--background-main-color);
 }
-
 
 /* Button */
 
