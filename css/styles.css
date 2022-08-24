@@ -180,9 +180,6 @@ padding-right: 236px;
     margin-bottom: 50px;
 }
 
-.section-title {
-    margin-bottom: 50px;
-}
 
 .fuature-list .title {
     color: var(--title-text-color);
@@ -193,6 +190,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 
 .fuature-list .text {
     color: var(--primary-text-color);
@@ -206,13 +204,19 @@ letter-spacing: 0.03em;
 /* Examples */
 
 
-
 .examples {
     color: var(--title-text-color);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.examples-card:not(:nth-child(3n)) {
+    margin-right: 30px;
 }
 .section-title {
 
+    margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
