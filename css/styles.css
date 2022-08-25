@@ -122,6 +122,23 @@ button {
     color: var(--accent-color);
 }
 
+
+
+
+
+ /* !!!!!! */
+
+
+
+.pb-2 {
+    border: 1px solid #ECECEC;
+
+}
+
+
+
+
+
 /* Site-info */
 
 .site-info .link {
@@ -348,6 +365,7 @@ letter-spacing: 0.03em;
 }
 
 
+
 .footer-map {
     color: var(--background-main-color);
     font-family: 'Roboto';
@@ -411,6 +429,12 @@ letter-spacing: 0.03em;
 font-family: inherit;
 }
 
+.button-hero {
+    display: flex;
+    gap: 8px;
+    margin-top: 174px;
+  
+}
 /* Portfolio */
 
 
@@ -429,3 +453,4 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 }
+
