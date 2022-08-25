@@ -169,6 +169,7 @@ padding-left: 236px;
 padding-right: 236px;
 }
 
+
 .hero-title-1 .link:hover,
 .hero-title-1 .link:focus {
     color: var(--background-main-color);
@@ -199,6 +200,15 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
+.fuature-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.title {
+    padding-bottom: 10px;
+}
 
 /* Examples */
 
@@ -231,6 +241,27 @@ letter-spacing: 0.03em;
 .section-portfolio {
   padding-top: 50px;
   padding-bottom: 94px;  
+}
+
+.section-portfolio-card {
+    
+   
+    border: 1px solid #EEEEEE;
+    background-color: var(--background-main-color);
+}
+
+.title-g {
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.title-p {
+    padding-top: 4px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .port {
     display: flex;
@@ -297,6 +328,8 @@ letter-spacing: 0.03em;
   padding-bottom: 59px;
   border: 1px;
   background-color: var(--background-main-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -359,6 +392,8 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 font-family: inherit;
 }
+
+
 
 .button-p {
     color: var(--title-text-color);
